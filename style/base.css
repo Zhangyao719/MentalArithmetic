@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+.container {
+  width: 1260px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #F5F5F5;
+  border: 1px solid transparent;
+}
+
+.exams {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../assets/bgi.jpg);
+  background-size: cover;
+  text-align: center;
+  border-top: 1px solid transparent;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.start > h1 {
+  font-size: 90px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 12%;
+}
+.start > p {
+  font-size: 60px;
+  color: #F6FF21;
+}
+.start > span {
+  font-size: 60px;
+  color: #F6FF21;
+}
+
+.disappear {
+  display: none;
+}
+
+.video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  transition: all 0.2s linear;
+}
+
+ul {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+li {
+  position: absolute;
+  color: #f5222d;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.end h1,
+.answer h2,
+.answer h1 {
+  font-size: 90px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 12%;
+}
+
+.answer h2 {
+  font-size: 70px;
+}
+.answer h1 {
+  font-size: 100px;
+  color: #ffff00;
+  margin-top: unset;
+}
